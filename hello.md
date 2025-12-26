@@ -1,1 +1,1 @@
- Im setting up git at home.
+new repo set up
