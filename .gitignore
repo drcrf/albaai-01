@@ -1,0 +1,46 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+pip-wheel-metadata/
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.ipynb_checkpoints/
+
+# ---- Virtual environments ----
+.venv/
+venv/
+ENV/
+env/
+
+# ---- VS Code ----
+.vscode/
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+
+# ---- Azure / auth / secrets (IMPORTANT) ----
+.env
+.env.*
+*.pem
+*.key
+*.pfx
+*.cer
+*.crt
+*.p12
+
+# Azure CLI / developer auth caches (sometimes appear depending on tools)
+.azure/
+.azcopy/
